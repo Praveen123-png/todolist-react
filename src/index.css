@@ -88,19 +88,21 @@ li{
   overflow: auto;
 }
 
-@media (max-width: 768px){
+@media (max-width: 460px){
 
   input{
     width: 10rem;
   }
 
   li{
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: stretch;
   }
 
   .text{
     display: block;
+    width: 10rem;
     overflow: auto;
   }
 }

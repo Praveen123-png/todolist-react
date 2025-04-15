@@ -51,7 +51,7 @@ function ToDoList(){
         <ol>
             {tasks.map((task, index) => 
                 <li key={index}>
-                    <span className="text">{task}</span>  {/* we have to use arrow function for delete button, otherwise it execute from the beginning */}
+                    <div className="text">{task}</div>  {/* we have to use arrow function for delete button, otherwise it execute from the beginning */}
                     <button onClick={() => deleteTask(index)} className="delete-button">Delete</button>
                     <button onClick={() => moveTaskUp(index)} className="move-button">↑</button>    {/* ↑   &uArr;*/}
                     <button onClick={() => moveTaskDown(index)} className="move-button">↓</button>  {/* ↓   &dArr;*/}
