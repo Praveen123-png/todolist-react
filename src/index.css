@@ -86,3 +86,19 @@ li{
   flex: 1;
   color: hsla(0, 0%, 100%, 0.87);
 }
+
+@media (max-width: 768px){
+
+  input{
+    width: 10rem;
+  }
+
+  li{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .text{
+    display: block;
+  }
+}
